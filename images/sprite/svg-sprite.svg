@@ -1,0 +1,7 @@
+    <symbol id="arrow-se" viewBox="0 0 16 16">
+        <path fill-rule="evenodd" clip-rule="evenodd" d="M16 0v16H0v-2h12.582L.105 1.524 1.52.109 14 12.59V0h2z"/>
+    </symbol>
+
+    <symbol id="info" viewBox="0 0 4 18">
+        <path d="M0 6h4v12H0zM0 4h4V0H0z"/>
+    </symbol>
