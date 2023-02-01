@@ -49,12 +49,18 @@ $(document).ready(function () {
     spaceBetween: 30,
     loop: true,
     pagination: {
-      el: ".swiper-pagination",
       clickable: true,
+      renderBullet: function (index, className) {
+        const title = ['Global', 'North America', 'Latin America', 'META*', 'Europe', 'Russia', 'APAC'];
+        return '<span class="' + className + '">' + '<span>'+ title[index] + '</span>'  + '</span>';
+      },
+      el: '.swiper-pagination',
     },
+
     navigation: {
       nextEl: ".swiper-button-next",
       prevEl: ".swiper-button-prev",
     },
   });
+
 });
